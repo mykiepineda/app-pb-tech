@@ -1,0 +1,96 @@
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  padding: 91px 0;
+}
+
+.card {
+  width: 450px;
+  border-radius: 8px;
+  padding: 38px;
+  color: #ffffff;
+}
+
+.card h3 {
+  font-weight: 700;
+  font-size: 27.8943px;
+  margin-bottom: 15px;
+}
+
+.card p {
+  margin-bottom: 24.25px;
+}
+
+.card button {
+  box-sizing: border-box;
+  padding: 9.96226px 31.8792px;
+  height: 48px;
+  border-radius: 29.8868px;
+  font-weight: 500;
+  font-size: 15.9396px;
+  line-height: 16px;
+}
+
+/* Ask-Phoebe Overrides */
+
+.ap {
+  background-color: #ef8122;
+}
+
+.ap p {
+  width: 269.77px;
+}
+
+.ap button {
+  border: 2px solid #ffffff;
+}
+
+/* Try-Our-Laptop-Finder Overrides*/
+
+.tolf {
+  background-color: #0b5078;
+}
+
+.tolf p {
+  width: 348px;
+}
+
+.tolf button {
+  background-color: #ef8122;
+}
+
+.ap-container {
+  position: relative;
+}
+
+.ap-container .ap-phoebe {
+  position: absolute;
+  bottom: 0;
+  right: 24.83px;
+  height: 272.97px;
+}
+
+.ap-container .ap-squares {
+  position: absolute;
+  top: 149px;
+  left: -112px;
+}
+
+.ap-container .ap-circle {
+  position: absolute;
+  top: 40px;
+  left: -103px;
+  z-index: -10;
+}
+
+.tolf-container {
+  position: relative;
+}
+
+.tolf-container img {
+  position: absolute;
+  bottom: -8px;
+  right: -114.67px;
+  height: 284px;
+}

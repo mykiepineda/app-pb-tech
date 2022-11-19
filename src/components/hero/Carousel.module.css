@@ -1,0 +1,46 @@
+.carousel {
+  width: 100vw;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.carousel img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.info {
+  position: absolute;
+  left: 105px;
+  width: 432px;
+  background: rgba(230, 240, 246, 0.9);
+  border-radius: 8px;
+  z-index: 20;
+  padding: 72px;
+}
+
+.info h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 150%;
+  color: #0d4f77;
+}
+
+.info p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  margin: 29px 0;
+  color: #0c3759;
+}
+
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+}

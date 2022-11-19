@@ -1,0 +1,67 @@
+.hero {
+  width: 100%;
+  height: 741px;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
+.carousel {
+  display: flex;
+  position: relative;
+}
+
+.arrow-left,
+.arrow-right {
+  position: absolute;
+  width: 46px;
+  height: 46px;
+  background: #e6f0f6;
+  border-radius: 4px 0px 0px 4px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.arrow-left svg,
+.arrow-right svg {
+  color: #0c3759;
+}
+
+.arrow-left:hover svg,
+.arrow-right:hover svg {
+  color: #0d4f77;
+}
+
+.arrow-left {
+  transform: rotate(-180deg);
+  left: 0;
+}
+
+.arrow-right {
+  right: 0;
+}
+
+.slide-dots {
+  position: absolute;
+  width: 100%;
+  bottom: 22px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #c4c4c4;
+}
+
+.dot.active {
+  background: #3da6fe;
+}
